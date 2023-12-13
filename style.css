@@ -1,0 +1,76 @@
+body {
+    font-family: Helvetica;
+    font-size: 50px;
+    font-style: normal;
+    box-sizing: border-box;
+    border: 1px transparent;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+a:any-link, :visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.links {
+    background-color: #E5E000;
+    width: 1440px;
+    height: 100px;
+
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-top: 36px;
+
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-style: normal;
+    text-transform: uppercase;
+
+}
+
+.header {
+    display: flex;
+    width: 1440px;
+    height: 200px;
+    flex-shrink: 0;
+    background-color: #E5E000;
+    color: #FFF;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}   
+
+.image-eyes {
+    width: 1440px;
+    height: 1080px;
+    flex-shrink: 0;
+}
+
+.text {
+    width: 1280px;
+    height: 637px;
+    padding: 100px 80px 100px 80px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: #E5E000;
+}
+
+.logo {
+    padding-left: 80px;
+}
+
+.osno {
+    padding-right: 80px;
+}
